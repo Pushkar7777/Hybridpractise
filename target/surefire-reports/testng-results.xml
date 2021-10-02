@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="58186" started-at="2021-10-02T04:14:22Z" finished-at="2021-10-02T04:15:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="58186" started-at="2021-10-02T04:14:22Z" finished-at="2021-10-02T04:15:20Z">
+      <class name="testcases.Test1">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.Test1@52af6cff]" name="beforeTest" is-config="true" duration-ms="41792" started-at="2021-10-02T04:14:22Z" finished-at="2021-10-02T04:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://nethorizonconsultancy.com/Seeker.aspx]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testcases.Test1@52af6cff]" name="test" duration-ms="4704" started-at="2021-10-02T04:15:06Z" data-provider="getData" finished-at="2021-10-02T04:15:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saxena]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testcases.Test1@52af6cff]" name="test" duration-ms="1805" started-at="2021-10-02T04:15:11Z" data-provider="getData" finished-at="2021-10-02T04:15:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[taneja]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testcases.Test1@52af6cff]" name="test" duration-ms="1927" started-at="2021-10-02T04:15:13Z" data-provider="getData" finished-at="2021-10-02T04:15:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.Test1@52af6cff]" name="afterTest" is-config="true" duration-ms="5327" started-at="2021-10-02T04:15:15Z" finished-at="2021-10-02T04:15:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testcases.Test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -2,10 +2,10 @@ package testcases;
 
 import org.testng.annotations.Test;
 
-import com.relevantcodes.extentreports.LogStatus;
-
-import Utility.PoiConfig;
+//import com.relevantcodes.extentreports.LogStatus;
 import core.Page;
+import Utility.PoiConfig;
+
 
 
 import org.testng.annotations.DataProvider;
@@ -23,7 +23,7 @@ import org.testng.annotations.AfterTest;
 public class Test1 extends Page {
   @Test(dataProvider = "getData")
   public void test(String id, String pwd) throws Exception {
-	  logs.debug("id "+id+" password "+pwd);
+	 logs.debug("id "+id+" password "+pwd);
 	 // test.log(LogStatus.PASS,"id "+id+" password "+pwd );
 	  Properties or =new Properties();
 	  FileInputStream fis=new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\OR.properties");
